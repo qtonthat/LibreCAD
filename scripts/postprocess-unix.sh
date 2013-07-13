@@ -25,7 +25,7 @@ find "${SPTDIR}"/library -type d | sed 's:^.*support/::' | xargs -IFILES  mkdir 
 find "${SPTDIR}"/library -type f -iname *.dxf | sed 's/^.*support//' | xargs -IFILES  cp "${SPTDIR}"/FILES "${RESOURCEDIR}"/FILES
 
 # Generate translations
-lrelease "${LCDIR}"/src/src.pro
+lrelease-qt4 "${LCDIR}"/src/src.pro
 mkdir -p "${RESOURCEDIR}"/qm
  
 # Go into translations directory
