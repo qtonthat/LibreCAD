@@ -292,6 +292,7 @@ void RS_LayerList::toggle(RS_Layer* layer) {
     }
 
     layer->toggle();
+    setModified(true);
 
     // Notify listeners:
     for (int i=0; i<layerListListeners.size(); ++i) {
@@ -303,7 +304,7 @@ void RS_LayerList::toggle(RS_Layer* layer) {
 
 
 /**
- * Locks or unlocks the given layer. 
+ * Locks or unlocks the given layer.
  * Listeners are notified.
  */
 void RS_LayerList::toggleLock(RS_Layer* layer) {
@@ -312,11 +313,33 @@ void RS_LayerList::toggleLock(RS_Layer* layer) {
     }
 
     layer->toggleLock();
+    setModified(true);
 
     // Notify listeners:
     for (int i=0; i<layerListListeners.size(); ++i) {
         RS_LayerListListener* l = layerListListeners.at(i);
-        l->layerToggled(layer);
+        l->layerToggledLock(layer);
+    }
+}
+
+
+
+/**
+ * Swith printing for the given layer on / off.
+ * Listeners are notified.
+ */
+void RS_LayerList::togglePrint(RS_Layer* layer) {
+    if (layer==NULL) {
+        return;
+    }
+
+    layer->togglePrint();
+    setModified(true);
+
+    // Notify listeners:
+    for (int i=0; i<layerListListeners.size(); ++i) {
+        RS_LayerListListener* l = layerListListeners.at(i);
+        l->layerToggledPrint(layer);
     }
 }
 
@@ -329,11 +352,12 @@ void RS_LayerList::toggleLock(RS_Layer* layer) {
  */
 void RS_LayerList::freezeAll(bool freeze) {
 
-    for (uint l=0; l<count(); l++) {
+    for (unsigned l=0; l<count(); l++) {
         if (at(l)->isVisibleInLayerList()) {
              at(l)->freeze(freeze);
          }
     }
+    setModified(true);
 
     for (int i=0; i<layerListListeners.size(); ++i) {
         RS_LayerListListener* l = layerListListeners.at(i);
@@ -375,7 +399,7 @@ void RS_LayerList::removeListener(RS_LayerListListener* listener) {
 std::ostream& operator << (std::ostream& os, RS_LayerList& l) {
 
     os << "Layerlist: \n";
-    for (uint i=0; i<l.count(); i++) {
+    for (unsigned i=0; i<l.count(); i++) {
         os << *(l.at(i)) << "\n";
     }
 

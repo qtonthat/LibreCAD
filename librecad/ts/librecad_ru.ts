@@ -132,7 +132,7 @@
     </message>
     <message>
         <source>&amp;Layer</source>
-        <translation>С&amp;лой</translation>
+        <translation>&amp;Слой</translation>
     </message>
     <message>
         <source>&amp;Block</source>
@@ -216,11 +216,11 @@
     </message>
     <message>
         <source>File</source>
-        <translation type="obsolete">Файл</translation>
+        <translation type="unfinished">Файл</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="obsolete">Правка</translation>
+        <translation type="unfinished">Правка</translation>
     </message>
     <message>
         <source>Vie&amp;ws</source>
@@ -232,7 +232,7 @@
     </message>
     <message>
         <source>View</source>
-        <translation type="obsolete">Вид</translation>
+        <translation type="unfinished">Вид</translation>
     </message>
     <message>
         <source>Pen</source>
@@ -240,7 +240,7 @@
     </message>
     <message>
         <source>Tool Options</source>
-        <translation type="obsolete">Параметры инструмента</translation>
+        <translation type="unfinished">Параметры инструмента</translation>
     </message>
     <message>
         <source>Layer List</source>
@@ -388,7 +388,7 @@ You can save your work now.</source>
     </message>
     <message>
         <source>Running script &apos;%1&apos;</source>
-        <translation>Выполняется сценарий &apos;%1&apos;</translation>
+        <translation>Выполнение сценария &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Inserting block &apos;%1&apos;</source>
@@ -419,7 +419,7 @@ You can save your work now.</source>
 %1
 Please check the permissions.
 Auto-save disabled.</source>
-        <translation>Автосохранение невозмозможно
+        <translation>Автосохранение невозможно
 %1
 Пожалуйста, проверьте права доступа к файлу.
 Автосохранение отключено.</translation>
@@ -514,6 +514,38 @@ Auto-save disabled.</source>
     </message>
     <message>
         <source>Auto-saving failed</source>
+        <translation>Ошибка при автосохранении</translation>
+    </message>
+    <message>
+        <source>Pen Selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Snap Selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CAD Tools</source>
+        <translation type="unfinished">Инструменты CAD</translation>
+    </message>
+    <message>
+        <source>Export as</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compiler: Clang %1.%2.%3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compiler: GNU GCC %1.%2.%3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compiler: Microsoft Visual C++&lt;br&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Qt Version: %1</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2362,7 +2394,11 @@ p, li { white-space: pre-wrap; }
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;Draw a tangential Circle of three lines/arcs/circles&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;Начертить окружность, касательную к трём линиям, дугам или окружностям&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -2409,7 +2445,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Concentric</source>
-        <translation type="unfinished">Концентрическая</translation>
+        <translation>Концентрический</translation>
     </message>
 </context>
 <context>
@@ -2748,11 +2784,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Trim / Extend two</source>
-        <translation>Выровнять / растянуть два объекта</translation>
+        <translation>Подогнать / растянуть два объекта</translation>
     </message>
     <message>
         <source>Trim / Extend</source>
-        <translation>Выровнять / растянуть</translation>
+        <translation>Подогнать / растянуть</translation>
     </message>
     <message>
         <source>Rotate around two centers</source>
@@ -3954,7 +3990,7 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     </message>
     <message>
         <source>[0300-036F] Combining Diacritical Marks</source>
-        <translation type="unfinished">[0300-036F] Дополняющие диакритические знаки</translation>
+        <translation>[0300-036F] Комбинируемые диакритические знаки</translation>
     </message>
     <message>
         <source>[0370-03FF] Greek and Coptic</source>
@@ -4610,7 +4646,7 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     </message>
     <message>
         <source>Surveyor&apos;s units</source>
-        <translation type="unfinished"></translation>
+        <translation>Геодезические единицы</translation>
     </message>
     <message>
         <source>Options</source>
@@ -4770,31 +4806,31 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     </message>
     <message>
         <source>Crosshair</source>
-        <translation type="unfinished"></translation>
+        <translation>Перекрестье</translation>
     </message>
     <message>
         <source>Left crosshair with isometric grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Левое перекрестье на изометрической сетке</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Левая</translation>
+        <translation>Левое</translation>
     </message>
     <message>
         <source>Top crosshair with isometric grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Вернее перекрестье на изометрической сетке</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation type="unfinished"></translation>
+        <translation>Верхнее</translation>
     </message>
     <message>
         <source>Right crosshair with isometric grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Правое перекрестье на изометрической сетке</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Правая</translation>
+        <translation>Правое</translation>
     </message>
     <message>
         <source>Use orthogonal grid</source>
@@ -4806,11 +4842,11 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     </message>
     <message>
         <source>Use isometric grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Использовать изометрическую сетку</translation>
     </message>
     <message>
         <source>Isometric Grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Изометрическая сетка</translation>
     </message>
     <message>
         <source>Tick size:</source>
@@ -4818,11 +4854,11 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dimension Tick size. Set it to 0 will disable the dimension tick. Dimension arrow won&apos;t be drawn when dimension tick is enabled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Засечки на размерных линиях. Установите 0 для отключения засечек. Стрелок на концах размерных линий не будет, если засечки включены.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
     <message>
         <source>Alignment:</source>
@@ -4834,15 +4870,15 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     </message>
     <message>
         <source>Dimension Aligned</source>
-        <translation type="unfinished"></translation>
+        <translation>Размер выровнен</translation>
     </message>
     <message>
         <source>Horizontal</source>
-        <translation type="unfinished">Горизонтальный</translation>
+        <translation>Горизонтальный</translation>
     </message>
     <message>
         <source>General Scale:</source>
-        <translation type="unfinished"></translation>
+        <translation>Общий масштаб:</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Scale to multiply all dimension values.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -4850,19 +4886,19 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     </message>
     <message>
         <source>0.5</source>
-        <translation type="unfinished">0.5</translation>
+        <translation>0.5</translation>
     </message>
     <message>
         <source>1.0</source>
-        <translation type="unfinished">1.0</translation>
+        <translation>1.0</translation>
     </message>
     <message>
         <source>2.0</source>
-        <translation type="unfinished">2.0</translation>
+        <translation>2.0</translation>
     </message>
     <message>
         <source>5.0</source>
-        <translation type="unfinished">5.0</translation>
+        <translation>5.0</translation>
     </message>
 </context>
 <context>
@@ -5230,7 +5266,7 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     </message>
     <message>
         <source>Closed</source>
-        <translation type="unfinished">Закрыто</translation>
+        <translation>Закрыта</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -6093,7 +6129,7 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     </message>
     <message>
         <source>Layer:</source>
-        <translation type="unfinished">Слой:</translation>
+        <translation>Слой:</translation>
     </message>
     <message>
         <source>Font settings</source>
@@ -6101,15 +6137,15 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     </message>
     <message>
         <source>Angle:</source>
-        <translation type="unfinished">Угол:</translation>
+        <translation>Угол:</translation>
     </message>
     <message>
         <source>Oblique:</source>
-        <translation type="unfinished"></translation>
+        <translation>Наклон:</translation>
     </message>
     <message>
         <source>Width factor:</source>
-        <translation type="unfinished"></translation>
+        <translation>Коэф. ширины:</translation>
     </message>
     <message>
         <source>Font:</source>
@@ -6117,7 +6153,7 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     </message>
     <message>
         <source>Baseline Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Слева от базовой линии</translation>
     </message>
     <message>
         <source>...</source>
@@ -6125,23 +6161,23 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     </message>
     <message>
         <source>Baseline Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Справа от базовой линии</translation>
     </message>
     <message>
         <source>Baseline Center</source>
-        <translation type="unfinished"></translation>
+        <translation>По центру базовой линии</translation>
     </message>
     <message>
         <source>Fit</source>
-        <translation type="unfinished"></translation>
+        <translation>Подогнать</translation>
     </message>
     <message>
         <source>Aligned</source>
-        <translation type="unfinished">Выровненный</translation>
+        <translation>Выровнять</translation>
     </message>
     <message>
         <source>Middle</source>
-        <translation type="unfinished">Середина</translation>
+        <translation>Середина</translation>
     </message>
 </context>
 <context>
@@ -6191,15 +6227,15 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     <name>QG_FileDialog</name>
     <message>
         <source>Drawing Exchange DXF 2000 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Формат обмена графическими данными DXF 2000 %1</translation>
     </message>
     <message>
         <source>Drawing Exchange DXF R12 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Формат обмена графическими данными DXF R12 %1</translation>
     </message>
     <message>
         <source>LFF Font %1</source>
-        <translation type="unfinished">Шрифт LFF %1</translation>
+        <translation>Шрифт LFF %1</translation>
     </message>
     <message>
         <source>QCad Font %1</source>
@@ -6211,11 +6247,11 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     </message>
     <message>
         <source>Drawing Exchange %1</source>
-        <translation type="unfinished">Drawing Exchange %1</translation>
+        <translation>Формат обмена графическими данными %1</translation>
     </message>
     <message>
         <source>QCad 1.x file %1</source>
-        <translation type="unfinished">Файл QCad 1.x %1</translation>
+        <translation>Файл QCad 1.x %1</translation>
     </message>
     <message>
         <source>Open Drawing</source>
@@ -6227,15 +6263,15 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     </message>
     <message>
         <source>Drawing Exchange DXF 2007 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Формат обмена графическими данными DXF 2007 %1</translation>
     </message>
     <message>
         <source>Drawing Exchange DXF 2004 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Формат обмена графическими данными DXF 2004 %1</translation>
     </message>
     <message>
         <source>Drawing Exchange DXF R14 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Формат обмена графическими данными DXF R14 %1</translation>
     </message>
     <message>
         <source>Block</source>
@@ -6257,6 +6293,10 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     </message>
     <message>
         <source>dwg Drawing %1</source>
+        <translation>Чертёж DWG %1</translation>
+    </message>
+    <message>
+        <source>Untitled</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6284,7 +6324,7 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     </message>
     <message>
         <source>DPI</source>
-        <translation type="unfinished">DPI</translation>
+        <translation>Точек на дюйм (DPI)</translation>
     </message>
     <message>
         <source>DPI of Image</source>
@@ -6419,7 +6459,7 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     </message>
     <message>
         <source>Colouring</source>
-        <translation type="unfinished"></translation>
+        <translation>Цветность</translation>
     </message>
     <message>
         <source>Black / White</source>
@@ -6427,7 +6467,7 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     </message>
     <message>
         <source>Coloured</source>
-        <translation type="unfinished"></translation>
+        <translation>Цветное</translation>
     </message>
     <message>
         <source>Borders</source>
@@ -6533,11 +6573,12 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     <message>
         <source>A Help Layer has entities of infinite straight lines intended to be used for geometric construction.
 The contents of a Help Layer should not appear in printout.</source>
-        <translation type="unfinished"></translation>
+        <translation>На вспомогательном слое располагаются неограниченное количество линий, применяемых для геометрических построений.
+Содержимое вспомогательного слоя не выводится на печать.</translation>
     </message>
     <message>
         <source>Help Layer</source>
-        <translation type="unfinished"></translation>
+        <translation>Вспомогательный слой</translation>
     </message>
 </context>
 <context>
@@ -6592,7 +6633,7 @@ The contents of a Help Layer should not appear in printout.</source>
     </message>
     <message>
         <source>Looking for matching layer names</source>
-        <translation type="unfinished"></translation>
+        <translation>Поиск подходящих названий слоёв</translation>
     </message>
 </context>
 <context>
@@ -6723,7 +6764,7 @@ The contents of a Help Layer should not appear in printout.</source>
     </message>
     <message>
         <source>Redo</source>
-        <translation type="unfinished">Повторить</translation>
+        <translation>Повторить</translation>
     </message>
 </context>
 <context>
@@ -6916,30 +6957,30 @@ The contents of a Help Layer should not appear in printout.</source>
     <name>QG_MTextOptions</name>
     <message>
         <source>Text Options</source>
-        <translation type="unfinished">Параметры текста</translation>
+        <translation>Параметры текста</translation>
     </message>
     <message>
         <source>Text:</source>
-        <translation type="unfinished">Текст:</translation>
+        <translation>Текст:</translation>
     </message>
     <message>
         <source>Angle:</source>
-        <translation type="unfinished">Угол:</translation>
+        <translation>Угол:</translation>
     </message>
 </context>
 <context>
     <name>QG_ModifyOffsetOptions</name>
     <message>
         <source>Modify Offset Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Изменить параметры смещения</translation>
     </message>
     <message>
         <source>Distance:</source>
-        <translation type="unfinished">Расстояние:</translation>
+        <translation>Расстояние:</translation>
     </message>
     <message>
         <source>Offset from original entity</source>
-        <translation type="unfinished"></translation>
+        <translation>Смещение от исходного объекта</translation>
     </message>
 </context>
 <context>
@@ -6991,11 +7032,11 @@ The contents of a Help Layer should not appear in printout.</source>
     <name>QG_PolylineEquidistantOptions</name>
     <message>
         <source>Line Relative Angle Options</source>
-        <translation type="unfinished">Параметры линии под относительным углом</translation>
+        <translation>Параметры линии под относительным углом</translation>
     </message>
     <message>
         <source>Spacing:</source>
-        <translation type="unfinished">Промежуток:</translation>
+        <translation>Промежуток:</translation>
     </message>
     <message>
         <source>Distance from original polyline</source>
@@ -7010,15 +7051,15 @@ The contents of a Help Layer should not appear in printout.</source>
     <name>QG_PolylineOptions</name>
     <message>
         <source>Polyline Options</source>
-        <translation type="unfinished">Параметры полилинии</translation>
+        <translation>Параметры ломаной</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished">Закрыть</translation>
+        <translation>Закрыть</translation>
     </message>
     <message>
         <source>Undo</source>
-        <translation type="unfinished">Отменить</translation>
+        <translation>Отменить</translation>
     </message>
     <message>
         <source>Arc</source>
@@ -7026,11 +7067,11 @@ The contents of a Help Layer should not appear in printout.</source>
     </message>
     <message>
         <source>Radius:</source>
-        <translation type="unfinished">Радиус:</translation>
+        <translation>Радиус:</translation>
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished">Линия</translation>
+        <translation>Линия</translation>
     </message>
     <message>
         <source>Tangential</source>
@@ -7077,11 +7118,11 @@ The contents of a Help Layer should not appear in printout.</source>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Print Scale is locked to the current value&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Масштаб печати зафиксирован на текущем значении&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>fixed</source>
-        <translation type="unfinished"></translation>
+        <translation>зафиксирован</translation>
     </message>
 </context>
 <context>
@@ -7200,7 +7241,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Snap to closest point on entity</source>
-        <translation type="unfinished">Привязка к ближайшей точке на объекте</translation>
+        <translation>Привязка к ближайшей точке на объекте</translation>
     </message>
     <message>
         <source>Snap to point with given distance to endpoint</source>
@@ -7208,7 +7249,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Snap to intersections manually</source>
-        <translation type="unfinished">Привязка к точкам пересечения вручную</translation>
+        <translation>Привязка к точкам пересечения вручную</translation>
     </message>
     <message>
         <source>Snap to grid</source>
@@ -7232,59 +7273,59 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Free Snap</source>
-        <translation type="unfinished"></translation>
+        <translation>Без привязки</translation>
     </message>
     <message>
         <source>Snap on grid</source>
-        <translation type="unfinished"></translation>
+        <translation>К сетке</translation>
     </message>
     <message>
         <source>Snap on Endpoints</source>
-        <translation type="unfinished"></translation>
+        <translation>К конечным точками</translation>
     </message>
     <message>
         <source>Snap on Entity</source>
-        <translation type="unfinished"></translation>
+        <translation>К объекту</translation>
     </message>
     <message>
         <source>Snap Center</source>
-        <translation type="unfinished"></translation>
+        <translation>К точкам центра</translation>
     </message>
     <message>
         <source>Snap Middle</source>
-        <translation type="unfinished"></translation>
+        <translation>К середине</translation>
     </message>
     <message>
         <source>Snap Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>На заданном расстоянии</translation>
     </message>
     <message>
         <source>Snap Intersection</source>
-        <translation type="unfinished"></translation>
+        <translation>К точкам пересечения</translation>
     </message>
     <message>
         <source>Restrict Horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>Ограничить горизонтально</translation>
     </message>
     <message>
         <source>Restrict Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>Ограничить вертикально</translation>
     </message>
     <message>
         <source>Restrict Orthogonal</source>
-        <translation type="unfinished"></translation>
+        <translation>Ограничить ортагонально</translation>
     </message>
     <message>
         <source>Restrict Nothing</source>
-        <translation type="unfinished">Без ограничений</translation>
+        <translation>Без ограничений</translation>
     </message>
     <message>
         <source>Set relative zero position</source>
-        <translation type="unfinished"></translation>
+        <translation>Задать положение относительного нуля</translation>
     </message>
     <message>
         <source>Lock relative zero position</source>
-        <translation type="unfinished"></translation>
+        <translation>Заблокировать положение относительного нуля</translation>
     </message>
 </context>
 <context>
@@ -7299,15 +7340,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>1</source>
-        <translation type="unfinished">1</translation>
+        <translation>1</translation>
     </message>
     <message>
         <source>2</source>
-        <translation type="unfinished">2</translation>
+        <translation>2</translation>
     </message>
     <message>
         <source>3</source>
-        <translation type="unfinished">3</translation>
+        <translation>3</translation>
     </message>
     <message>
         <source>Closed</source>
@@ -7337,7 +7378,7 @@ p, li { white-space: pre-wrap; }
     <name>QG_TrimAmountOptions</name>
     <message>
         <source>Trim Amount Options</source>
-        <translation>Параметры выравнивания на величину</translation>
+        <translation>Параметры подгона на величину</translation>
     </message>
     <message>
         <source>Distance. Negative values for trimming, positive values for extending.</source>
@@ -7763,23 +7804,23 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Scalable Vector Graphics</source>
-        <translation type="unfinished"></translation>
+        <translation>Векторный формат SVG</translation>
     </message>
     <message>
         <source>SGI Black &amp; White</source>
-        <translation type="unfinished"></translation>
+        <translation>Чёрно-белый SGI</translation>
     </message>
     <message>
         <source>Encapsulated PostScript</source>
-        <translation type="unfinished"></translation>
+        <translation>Встраиваемый Postscript</translation>
     </message>
     <message>
         <source>Encapsulated PostScript Format</source>
-        <translation type="unfinished"></translation>
+        <translation>Встраиваемый формат Postscript</translation>
     </message>
     <message>
         <source>Encapsulated PostScript Interchange</source>
-        <translation type="unfinished"></translation>
+        <translation>Встраиваемый формат Postscript для обмена</translation>
     </message>
     <message>
         <source>Windows Icon</source>
@@ -7787,7 +7828,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>JPEG 2000</source>
-        <translation type="unfinished"></translation>
+        <translation>JPEG 2000</translation>
     </message>
     <message>
         <source>ZSoft Paintbrush</source>
@@ -7795,19 +7836,19 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>PC Paint</source>
-        <translation type="unfinished"></translation>
+        <translation>PC Paint</translation>
     </message>
     <message>
         <source>SGI-Bilddatei</source>
-        <translation type="unfinished"></translation>
+        <translation>SGI-Bilddatei</translation>
     </message>
     <message>
         <source>Targa Image File</source>
-        <translation type="unfinished"></translation>
+        <translation>Файл изображения Targa</translation>
     </message>
     <message>
         <source>Tagged Image File Format</source>
-        <translation type="unfinished"></translation>
+        <translation>Теговый формат растровых изображений</translation>
     </message>
     <message>
         <source>Old Drawing Exchange %1</source>
@@ -7815,47 +7856,47 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Opened dwg file version %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Открыт файл DWG версии %1.</translation>
     </message>
     <message>
         <source>unknown error opening dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>неизвестная ошибка при открытии файла DWG</translation>
     </message>
     <message>
         <source>can&apos;t open this dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>невозможно открыть данный файл DWG</translation>
     </message>
     <message>
         <source>unsupported dwg version</source>
-        <translation type="unfinished"></translation>
+        <translation>неподдерживаемая версия DWG</translation>
     </message>
     <message>
         <source>error reading file header in dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>ошибка чтения заголовка файла DWG</translation>
     </message>
     <message>
         <source>error reading header vars in dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>ошибка чтения заголовка переменных файла DWG</translation>
     </message>
     <message>
         <source>error reading classes in dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>ошибка чтения классов файла DWG</translation>
     </message>
     <message>
         <source>error reading offsets in dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>ошибка чтения смещений файла DWG</translation>
     </message>
     <message>
         <source>error reading tables in dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>ошибка чтения таблиц файла DWG</translation>
     </message>
     <message>
         <source>error reading entities in dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>ошибка чтения объектов файла DWG</translation>
     </message>
     <message>
         <source>dwg Drawing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Чертёж DWG %1</translation>
     </message>
 </context>
 <context>
@@ -8034,7 +8075,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>No block activated to save</source>
-        <translation type="unfinished"></translation>
+        <translation>Не выбран блок для сохранения</translation>
     </message>
 </context>
 <context>
@@ -8443,7 +8484,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Arc &amp;Tangential</source>
-        <translation type="unfinished"></translation>
+        <translation>Ка&amp;сательно</translation>
     </message>
 </context>
 <context>
@@ -8602,7 +8643,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <source>Specify the second line</source>
@@ -8621,15 +8662,15 @@ Do you want to replace it?</source>
     <name>RS_ActionDrawCircleTan1_2P</name>
     <message>
         <source>Circle Tangential 2 P&amp;oints</source>
-        <translation type="unfinished"></translation>
+        <translation>По &amp;касательной и двум точкам</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <source>Specify the first point on the tangent circle</source>
-        <translation type="unfinished"></translation>
+        <translation>Укажите первую точку на касательной окружности</translation>
     </message>
     <message>
         <source>Back</source>
@@ -8637,34 +8678,34 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Specify the second point on the tangent circle</source>
-        <translation type="unfinished"></translation>
+        <translation>Укажите вторую точку на касательной окружности</translation>
     </message>
     <message>
         <source>Select the center of the tangent circle</source>
-        <translation type="unfinished"></translation>
+        <translation>Укажите центр касательной окружности</translation>
     </message>
     <message>
         <source>Specify a line/arc/circle</source>
-        <translation type="unfinished"></translation>
+        <translation>Укажите линию, дугу или окружность</translation>
     </message>
 </context>
 <context>
     <name>RS_ActionDrawCircleTan2</name>
     <message>
         <source>Circle Tangential &amp;2</source>
-        <translation type="unfinished"></translation>
+        <translation>По двум касательным</translation>
     </message>
     <message>
         <source>Specify the first line/arc/circle</source>
-        <translation type="unfinished"></translation>
+        <translation>Укажите первую прямую, дугу или окружность</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <source>Specify the second line/arc/circle</source>
-        <translation type="unfinished"></translation>
+        <translation>Укажите вторую прямую, дугу или окружность</translation>
     </message>
     <message>
         <source>Back</source>
@@ -8672,26 +8713,26 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Select the center of the tangent circle</source>
-        <translation type="unfinished"></translation>
+        <translation>Укажите центр касательной окружности</translation>
     </message>
 </context>
 <context>
     <name>RS_ActionDrawCircleTan2_1P</name>
     <message>
         <source>Common Tangential Circle 1 Point</source>
-        <translation type="unfinished"></translation>
+        <translation>По двум касательным и точке</translation>
     </message>
     <message>
         <source>Specify a line/arc/circle</source>
-        <translation type="unfinished"></translation>
+        <translation>Укажите прямую, дугу или окружность</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <source>Specify the another arc/circle</source>
-        <translation type="unfinished"></translation>
+        <translation>Укажите другую дугу или окружность</translation>
     </message>
     <message>
         <source>Back</source>
@@ -8699,22 +8740,22 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Specify a point on the tangent circle</source>
-        <translation type="unfinished"></translation>
+        <translation>Укажите точку на окружности</translation>
     </message>
     <message>
         <source>Select the center of the tangent circle</source>
-        <translation type="unfinished"></translation>
+        <translation>Укажите центр окружности</translation>
     </message>
 </context>
 <context>
     <name>RS_ActionDrawCircleTan3</name>
     <message>
         <source>Circle Tangential &amp;3</source>
-        <translation type="unfinished"></translation>
+        <translation>По &amp;трём касательным</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <source>Back</source>
@@ -8722,26 +8763,26 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Select the center of the tangent circle</source>
-        <translation type="unfinished"></translation>
+        <translation>Укажите центр окружности</translation>
     </message>
     <message>
         <source>Specify the first line/arc/circle</source>
-        <translation type="unfinished"></translation>
+        <translation>Укажите первую линию, дугу или окружность</translation>
     </message>
     <message>
         <source>Specify the second line/arc/circle</source>
-        <translation type="unfinished"></translation>
+        <translation>Укажите вторую линию, дугу или окружность</translation>
     </message>
     <message>
         <source>Specify the third line/arc/circle</source>
-        <translation type="unfinished"></translation>
+        <translation>Укажите третью линию, дугу или окружность</translation>
     </message>
 </context>
 <context>
     <name>RS_ActionDrawEllipse4Points</name>
     <message>
         <source>Ellipse &amp;4 Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Эллипс по &amp;4 точкам</translation>
     </message>
     <message>
         <source>Specify the first point on ellipse</source>
@@ -8749,7 +8790,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <source>Specify the second point on ellipse</source>
@@ -8828,14 +8869,14 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Ellipse &amp;Arc (Axis)</source>
-        <translation type="unfinished"></translation>
+        <translation>Эллиптическая &amp;дуга (по осям)</translation>
     </message>
 </context>
 <context>
     <name>RS_ActionDrawEllipseCenter3Points</name>
     <message>
         <source>Ellipse Center and &amp;3 Points</source>
-        <translation type="unfinished"></translation>
+        <translation>Эллипс по центру и &amp;3 точкам</translation>
     </message>
     <message>
         <source>Specify the center of ellipse</source>
@@ -8843,7 +8884,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <source>Specify the first point on ellipse</source>
@@ -8870,7 +8911,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Not a valid expression</source>
-        <translation type="unfinished">Недопустимое выражение</translation>
+        <translation>Недопустимое выражение</translation>
     </message>
     <message>
         <source>Specify first focus of ellipse</source>
@@ -8878,11 +8919,11 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <source>Specify second focus of ellipse</source>
-        <translation type="unfinished"></translation>
+        <translation>Укажите второй фокус эллипса</translation>
     </message>
     <message>
         <source>Back</source>
@@ -8905,11 +8946,11 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <source>Specify the second line</source>
-        <translation type="unfinished">Укажите вторую линию</translation>
+        <translation>Укажите вторую линию</translation>
     </message>
     <message>
         <source>Back</source>
@@ -8987,7 +9028,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Enter dpi:</source>
-        <translation type="unfinished"></translation>
+        <translation>Введите DPI:</translation>
     </message>
 </context>
 <context>
@@ -9034,7 +9075,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Cannot close sequence of lines: Not enough entities defined yet, or already closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно замкнуть последовательность отрезков — выбрано недостаточно или уже замкнуто.</translation>
     </message>
     <message>
         <source>Cannot redo: Not previous line segment defined.</source>
@@ -9206,7 +9247,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Vertical</source>
-        <translation type="unfinished">Вертикальный</translation>
+        <translation>По вертикали</translation>
     </message>
 </context>
 <context>
@@ -9221,11 +9262,11 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <source>Select circle, arc or ellipse</source>
-        <translation type="unfinished">Выделите окружность, дугу или эллипс</translation>
+        <translation>Выделите окружность, дугу или эллипс</translation>
     </message>
     <message>
         <source>Back</source>
@@ -9276,7 +9317,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>&amp;Parallel</source>
-        <translation type="unfinished"></translation>
+        <translation>Пара&amp;ллельно</translation>
     </message>
 </context>
 <context>
@@ -9404,15 +9445,15 @@ Do you want to replace it?</source>
     <name>RS_ActionDrawLinePolygonCenCor</name>
     <message>
         <source>Pol&amp;ygon (Cen,Cor)</source>
-        <translation type="unfinished">Многоу&amp;гольник (Центр,Угол)</translation>
+        <translation>Многоу&amp;гольник (по центру и вершине)</translation>
     </message>
     <message>
         <source>Specify center</source>
-        <translation type="unfinished">Укажите центр</translation>
+        <translation>Укажите центр</translation>
     </message>
     <message>
         <source>Specify a corner</source>
-        <translation type="unfinished">Укажите угол</translation>
+        <translation>Укажите вершину</translation>
     </message>
     <message>
         <source>Enter number:</source>
@@ -9424,26 +9465,26 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Not a valid expression</source>
-        <translation type="unfinished">Недопустимое выражение</translation>
+        <translation>Недопустимое выражение</translation>
     </message>
 </context>
 <context>
     <name>RS_ActionDrawLinePolygonCorCor</name>
     <message>
         <source>Polygo&amp;n (Cor,Cor)</source>
-        <translation type="unfinished"></translation>
+        <translation>Мног&amp;оугольник по 2 вершинам</translation>
     </message>
     <message>
         <source>Specify first corner</source>
-        <translation type="unfinished">Укажите первый угол</translation>
+        <translation>Укажите первую вершину</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <source>Specify second corner</source>
-        <translation type="unfinished">Укажите второй угол</translation>
+        <translation>Укажите вторую вершину</translation>
     </message>
     <message>
         <source>Back</source>
@@ -9459,7 +9500,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Not a valid expression.</source>
-        <translation type="unfinished">Недопустимое выражение.</translation>
+        <translation>Недопустимое выражение.</translation>
     </message>
 </context>
 <context>
@@ -9661,19 +9702,19 @@ Do you want to replace it?</source>
     <name>RS_ActionDrawMText</name>
     <message>
         <source>&amp;MText</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Многострочный текст</translation>
     </message>
     <message>
         <source>Specify insertion point</source>
-        <translation type="unfinished">Укажите точку вставки</translation>
+        <translation>Укажите точку вставки</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <source>Enter text:</source>
-        <translation type="unfinished">Введите текст:</translation>
+        <translation>Введите текст:</translation>
     </message>
     <message>
         <source>Back</source>
@@ -9711,23 +9752,23 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>&amp;Polyline</source>
-        <translation type="unfinished">&amp;Полилиния</translation>
+        <translation>&amp;Ломаная</translation>
     </message>
     <message>
         <source>Draw polylines</source>
-        <translation type="unfinished">Начертить полилинию</translation>
+        <translation>Начертить ломаную</translation>
     </message>
     <message>
         <source>Specify first point</source>
-        <translation type="unfinished">Укажите первую точку</translation>
+        <translation>Укажите первую точку</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <source>Specify next point or [%1]</source>
-        <translation type="unfinished">Укажите следующую точку или [%1]</translation>
+        <translation>Укажите следующую точку или [%1]</translation>
     </message>
     <message>
         <source>Back</source>
@@ -9735,34 +9776,34 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Specify next point</source>
-        <translation type="unfinished">Укажите следующую точку</translation>
+        <translation>Укажите следующую точку</translation>
     </message>
     <message>
         <source>Cannot close sequence of lines: Not enough entities defined yet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно замкнуть последовательность линий. Указано недостаточно элементов.</translation>
     </message>
     <message>
         <source>Cannot undo: Not enough entities defined yet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно отменить. Недостаточно элементов.</translation>
     </message>
 </context>
 <context>
     <name>RS_ActionDrawSpline</name>
     <message>
         <source>&amp;Spline</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Кривая</translation>
     </message>
     <message>
         <source>Specify first control point</source>
-        <translation type="unfinished"></translation>
+        <translation>Укажите первую контрольную точку</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <source>Specify next control point or [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Укажите следующую контрольную точку или [%1]</translation>
     </message>
     <message>
         <source>Back</source>
@@ -9770,11 +9811,11 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Specify next control point</source>
-        <translation type="unfinished"></translation>
+        <translation>Укажите следующую контрольную точку</translation>
     </message>
     <message>
         <source>Cannot undo: Not enough entities defined yet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно отменить. Недостаточно элементов.</translation>
     </message>
 </context>
 <context>
@@ -9809,7 +9850,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Specify second point</source>
-        <translation type="unfinished">Укажите вторую точку</translation>
+        <translation>Укажите вторую точку</translation>
     </message>
 </context>
 <context>
@@ -10016,7 +10057,11 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Angle: %1</source>
-        <translation type="unfinished">Угол: %1</translation>
+        <translation>Угол: %1</translation>
+    </message>
+    <message>
+        <source> or %1%2</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -10039,7 +10084,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <source>Specify next point of polygon</source>
@@ -10232,11 +10277,11 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>&amp;Hide all</source>
-        <translation type="unfinished">&amp;Скрыть все</translation>
+        <translation>&amp;Скрыть всё</translation>
     </message>
     <message>
         <source>&amp;Show all</source>
-        <translation type="unfinished">&amp;Показать все</translation>
+        <translation>&amp;Показать всё</translation>
     </message>
 </context>
 <context>
@@ -10292,7 +10337,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>&amp;Toggle Layer Visibility</source>
-        <translation type="unfinished">Изменить &amp;видимость слоя</translation>
+        <translation>Изменить &amp;видимость слоя</translation>
     </message>
 </context>
 <context>
@@ -10463,7 +10508,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>&amp;Divide</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Разделить</translation>
     </message>
     <message>
         <source>Entity must be a line, arc, circle or ellipse.</source>
@@ -10489,7 +10534,7 @@ Do you want to replace it?</source>
     <name>RS_ActionModifyDeleteFree</name>
     <message>
         <source>Specify first break point on a polyline</source>
-        <translation>Укажите первую точку разделения ломанной</translation>
+        <translation>Укажите первую точку разделения ломаной</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -10497,7 +10542,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Specify second break point on the same polyline</source>
-        <translation>Укажите вторую точку разделения на той же ломанной</translation>
+        <translation>Укажите вторую точку разделения на той же ломаной</translation>
     </message>
     <message>
         <source>Back</source>
@@ -10513,11 +10558,11 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Entities not in the same polyline.</source>
-        <translation>Объекты не принадлежат ломанной.</translation>
+        <translation>Объекты не принадлежат ломаной.</translation>
     </message>
     <message>
         <source>Parent of second entity is not a polyline</source>
-        <translation>Второй родительский объект не является ломанной.</translation>
+        <translation>Второй родительский объект не является ломаной.</translation>
     </message>
     <message>
         <source>Parent of second entity is NULL</source>
@@ -10529,7 +10574,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Parent of first entity is not a polyline</source>
-        <translation>Родитель первого объекта — не ломанная</translation>
+        <translation>Родитель первого объекта — не ломаная</translation>
     </message>
     <message>
         <source>Parent of first entity is NULL</source>
@@ -10718,11 +10763,11 @@ Do you want to replace it?</source>
     <name>RS_ActionModifyOffset</name>
     <message>
         <source>&amp;Offset</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Смещение</translation>
     </message>
     <message>
         <source>Specify direction of offset</source>
-        <translation type="unfinished"></translation>
+        <translation>Укажите направление смещения</translation>
     </message>
     <message>
         <source>Back</source>
@@ -10896,7 +10941,7 @@ Do you want to replace it?</source>
     <name>RS_ActionModifyTrim</name>
     <message>
         <source>Select first trim entity</source>
-        <translation>Выберите первый объект для выравнивания</translation>
+        <translation>Выберите первый объект для подгона</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -10912,11 +10957,11 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Select second trim entity</source>
-        <translation>Выберите второй объект для выравнивания</translation>
+        <translation>Выберите второй объект для подгона</translation>
     </message>
     <message>
         <source>Select entity to trim</source>
-        <translation>Выберите объект для выравнивания</translation>
+        <translation>Выберите объект для подгона</translation>
     </message>
     <message>
         <source>Trim</source>
@@ -10924,7 +10969,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>&amp;Trim</source>
-        <translation>&amp;Выровнять</translation>
+        <translation>&amp;Подогнать</translation>
     </message>
     <message>
         <source>Trim Entities</source>
@@ -10936,7 +10981,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>&amp;Trim Two</source>
-        <translation>&amp;Выровнять два объекта</translation>
+        <translation>&amp;Подогнать два объекта</translation>
     </message>
     <message>
         <source>Trim two Entities</source>
@@ -10955,7 +11000,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>The chosen Entity is not an atomic entity or cannot be trimmed.</source>
-        <translation>Выбранный объект не является элементарным объектом или его невозможно выровнять.</translation>
+        <translation>Выбранный объект не является элементарным объектом или его невозможно подогнать.</translation>
     </message>
     <message>
         <source>Not a valid expression</source>
@@ -10963,7 +11008,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Select entity to trim or enter distance:</source>
-        <translation>Выберите объект для выравнивания или введите расстояние:</translation>
+        <translation>Выберите объект для подгона или введите расстояние:</translation>
     </message>
     <message>
         <source>Back</source>
@@ -11029,7 +11074,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>No Entity found.</source>
-        <translation type="unfinished">Объект не найден.</translation>
+        <translation>Объект не найден.</translation>
     </message>
     <message>
         <source>Choose entity for order</source>
@@ -11037,14 +11082,14 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
 </context>
 <context>
     <name>RS_ActionPolylineAdd</name>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <source>Back</source>
@@ -11052,19 +11097,19 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>&amp;Add node</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Добавить вершину</translation>
     </message>
     <message>
         <source>Add polyline&apos;s node</source>
-        <translation>Добавить вершину ломанной</translation>
+        <translation>Добавить вершину ломаной</translation>
     </message>
     <message>
         <source>No Entity found.</source>
-        <translation type="unfinished">Объект не найден.</translation>
+        <translation>Объект не найден.</translation>
     </message>
     <message>
         <source>Entity must be a polyline.</source>
-        <translation>Объект должен быть ломанной</translation>
+        <translation>Объект должен быть ломаной.</translation>
     </message>
     <message>
         <source>Adding point is invalid.</source>
@@ -11076,7 +11121,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Specify polyline to add nodes</source>
-        <translation>Укажите ломанную для добавления вершин</translation>
+        <translation>Укажите ломаную для добавления вершин</translation>
     </message>
     <message>
         <source>Specify adding node&apos;s point</source>
@@ -11087,7 +11132,7 @@ Do you want to replace it?</source>
     <name>RS_ActionPolylineAppend</name>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <source>A&amp;ppend node</source>
@@ -11103,15 +11148,15 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Entity must be a polyline.</source>
-        <translation>Объект должен быть ломанной.</translation>
+        <translation>Объект должен быть ломаной.</translation>
     </message>
     <message>
         <source>Click somewhere near the beginning or end of existing polyline.</source>
-        <translation>Щёлкните рядом с началом или концом существующей ломанной.</translation>
+        <translation>Щёлкните рядом с началом или концом существующей ломаной.</translation>
     </message>
     <message>
         <source>Specify the polyline somewhere near the beginning or end point</source>
-        <translation>Укажите ломанную рядом с началом или концом точки</translation>
+        <translation>Укажите ломаную рядом с началом или концом точки</translation>
     </message>
     <message>
         <source>Specify next point or [%1]</source>
@@ -11127,7 +11172,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Can not append nodes in a closed polyline.</source>
-        <translation>Нельзя прикрепить узел к замкнутой ломанной.</translation>
+        <translation>Нельзя прикрепить узел к замкнутой ломаной.</translation>
     </message>
     <message>
         <source>Cannot undo: Not enough entities defined yet.</source>
@@ -11150,7 +11195,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Delete polyline&apos;s node</source>
-        <translation>Удалить вершину ломанной</translation>
+        <translation>Удалить вершину ломаной</translation>
     </message>
     <message>
         <source>No Entity found.</source>
@@ -11158,7 +11203,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Entity must be a polyline.</source>
-        <translation>Объект должен быть ломанной.</translation>
+        <translation>Объект должен быть ломаной.</translation>
     </message>
     <message>
         <source>Adding point is not on entity.</source>
@@ -11166,7 +11211,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Specify polyline to delete node</source>
-        <translation>Укажите ломанную для удаления вершины</translation>
+        <translation>Укажите ломаную для удаления вершины</translation>
     </message>
     <message>
         <source>Specify deleting node&apos;s point</source>
@@ -11221,7 +11266,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Specify polyline to delete between two nodes</source>
-        <translation>Укажите ломанную для удаления отрезка между двумя вершинами.</translation>
+        <translation>Укажите ломаную для удаления отрезка между двумя вершинами</translation>
     </message>
     <message>
         <source>Specify first node</source>
@@ -11240,11 +11285,11 @@ Do you want to replace it?</source>
     <name>RS_ActionPolylineEquidistant</name>
     <message>
         <source>Create &amp;Equidistant Polylines</source>
-        <translation>Создание &amp;равноудаленных ломанных</translation>
+        <translation>Создание &amp;равноудаленных ломаных</translation>
     </message>
     <message>
         <source>Create Equidistant Polylines</source>
-        <translation>Создание равноудаленных ломанных</translation>
+        <translation>Создание равноудаленных ломаных</translation>
     </message>
     <message>
         <source>No Entity found.</source>
@@ -11252,11 +11297,11 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Entity must be a polyline.</source>
-        <translation>Объект должен быть ломанной.</translation>
+        <translation>Объект должен быть ломаной.</translation>
     </message>
     <message>
         <source>Choose the original polyline</source>
-        <translation>Определите исходную ломанную</translation>
+        <translation>Определите исходную ломаную</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -11267,7 +11312,7 @@ Do you want to replace it?</source>
     <name>RS_ActionPolylineSegment</name>
     <message>
         <source>Create Polyline from Existing &amp;Segments</source>
-        <translation>Создать ломанную из существующих &amp;отрезков</translation>
+        <translation>Создать ломаную из существующих &amp;отрезков</translation>
     </message>
     <message>
         <source>Create Polyline from Existing Segments</source>
@@ -11279,7 +11324,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Choose one of the segments on the original polyline</source>
-        <translation>Выберите один из отрезков на исходной ломанной</translation>
+        <translation>Выберите один из отрезков на исходной ломаной</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -11287,11 +11332,11 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Entity must be a line, arc or polyline.</source>
-        <translation>Объект должен быть линией, дугой или ломанной.</translation>
+        <translation>Объект должен быть линией, дугой или ломаной.</translation>
     </message>
     <message>
         <source>Entity can not be a closed polyline.</source>
-        <translation>Объект не может быть замкнутой ломанной.</translation>
+        <translation>Объект не может быть замкнутой ломаной.</translation>
     </message>
 </context>
 <context>
@@ -11306,11 +11351,11 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>&amp;Trim segments</source>
-        <translation>&amp;Укоротить отрезок</translation>
+        <translation>&amp;Подогнать отрезок</translation>
     </message>
     <message>
         <source>Trim polyline&apos;s segments</source>
-        <translation>Укоротить отрезок ломанной</translation>
+        <translation>Подогнать отрезок ломаной</translation>
     </message>
     <message>
         <source>No Entity found.</source>
@@ -11330,7 +11375,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Specify polyline to trim</source>
-        <translation type="unfinished"></translation>
+        <translation>Укажите полилинию для подгона</translation>
     </message>
     <message>
         <source>Specify first segment</source>

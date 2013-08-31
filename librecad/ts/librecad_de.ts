@@ -239,11 +239,11 @@ Datum:</translation>
     </message>
     <message>
         <source>File</source>
-        <translation type="obsolete">Datei</translation>
+        <translation>Datei</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="obsolete">Editieren</translation>
+        <translation>Editieren</translation>
     </message>
     <message>
         <source>Vie&amp;ws</source>
@@ -255,7 +255,7 @@ Datum:</translation>
     </message>
     <message>
         <source>View</source>
-        <translation type="obsolete">Ansicht</translation>
+        <translation>Ansicht</translation>
     </message>
     <message>
         <source>Pen</source>
@@ -263,7 +263,7 @@ Datum:</translation>
     </message>
     <message>
         <source>Tool Options</source>
-        <translation type="obsolete">Tool Optionen</translation>
+        <translation>Tool Optionen</translation>
     </message>
     <message>
         <source>Layer List</source>
@@ -555,6 +555,38 @@ Automatisches speichern wurde deaktiviert.</translation>
     </message>
     <message>
         <source>Auto-saving failed</source>
+        <translation>Automatisches Speichern fehlgeschlagen</translation>
+    </message>
+    <message>
+        <source>Pen Selection</source>
+        <translation>Auswahl Stift</translation>
+    </message>
+    <message>
+        <source>Snap Selection</source>
+        <translation>Auswahl Fangen</translation>
+    </message>
+    <message>
+        <source>CAD Tools</source>
+        <translation>CAD Werkzeuge</translation>
+    </message>
+    <message>
+        <source>Export as</source>
+        <translation>Exportieren als</translation>
+    </message>
+    <message>
+        <source>Compiler: Clang %1.%2.%3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compiler: GNU GCC %1.%2.%3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compiler: Microsoft Visual C++&lt;br&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Qt Version: %1</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2383,7 +2415,7 @@ Fenster editieren</translation>
     </message>
     <message>
         <source>Block Menu</source>
-        <translation>Block Menu</translation>
+        <translation>Block Menü</translation>
     </message>
     <message>
         <source>&amp;Defreeze all Blocks</source>
@@ -2564,7 +2596,7 @@ p, li { white-space: pre-wrap; }
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;Draw a tangential Circle of three lines/arcs/circles&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeichne Kreis tangential zu drei Linien/Bögen/Kreisen</translation>
     </message>
 </context>
 <context>
@@ -4144,7 +4176,7 @@ Sie können diese Einstellungen auch später im Optionen Dialog von QCad ändern
     </message>
     <message>
         <source>[02B0-02FF] Spacing Modifier Letters</source>
-        <translation>[02B0-02FF] Spacing Modifier Letters</translation>
+        <translation>[02B0-02FF] Abstand modifizierende Zeichen</translation>
     </message>
     <message>
         <source>[0300-036F] Combining Diacritical Marks</source>
@@ -5136,27 +5168,27 @@ Sie können diese Einstellungen auch später im Optionen Dialog von QCad ändern
     </message>
     <message>
         <source>General Scale:</source>
-        <translation type="unfinished"></translation>
+        <translation>Allgemeiner Maßstab:</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Scale to multiply all dimension values.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Multiplikationsfaktor für alle Bemaßungswerte.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>0.5</source>
-        <translation type="unfinished">0.5</translation>
+        <translation>0.5</translation>
     </message>
     <message>
         <source>1.0</source>
-        <translation type="unfinished">1.0</translation>
+        <translation>1.0</translation>
     </message>
     <message>
         <source>2.0</source>
-        <translation type="unfinished">2.0</translation>
+        <translation>2.0</translation>
     </message>
     <message>
         <source>5.0</source>
-        <translation type="unfinished">5.0</translation>
+        <translation>5.0</translation>
     </message>
 </context>
 <context>
@@ -5375,7 +5407,7 @@ Sie können diese Einstellungen auch später im Optionen Dialog von QCad ändern
     </message>
     <message>
         <source>S&amp;elected Color:</source>
-        <translation>S&amp;elektierte Objekte:</translation>
+        <translation>Ausge&amp;wählte Objekte:</translation>
     </message>
     <message>
         <source>#739373</source>
@@ -6675,7 +6707,11 @@ Sie können diese Einstellungen auch später im Optionen Dialog von QCad ändern
     </message>
     <message>
         <source>dwg Drawing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>DWG Zeichnung %1</translation>
+    </message>
+    <message>
+        <source>Untitled</source>
+        <translation>Unbenannt</translation>
     </message>
 </context>
 <context>
@@ -7651,59 +7687,59 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Free Snap</source>
-        <translation type="unfinished"></translation>
+        <translation>freies Fangen</translation>
     </message>
     <message>
         <source>Snap on grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Raster fangen</translation>
     </message>
     <message>
         <source>Snap on Endpoints</source>
-        <translation type="unfinished"></translation>
+        <translation>Endpunkte fangen</translation>
     </message>
     <message>
         <source>Snap on Entity</source>
-        <translation type="unfinished"></translation>
+        <translation>Objekte fangen</translation>
     </message>
     <message>
         <source>Snap Center</source>
-        <translation type="unfinished"></translation>
+        <translation>Zentrum fangen</translation>
     </message>
     <message>
         <source>Snap Middle</source>
-        <translation type="unfinished"></translation>
+        <translation>Mittelpunkt fangen</translation>
     </message>
     <message>
         <source>Snap Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>mit Abstand fangen</translation>
     </message>
     <message>
         <source>Snap Intersection</source>
-        <translation type="unfinished"></translation>
+        <translation>Schnittpunkte fangen</translation>
     </message>
     <message>
         <source>Restrict Horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>Horizontal einschränken</translation>
     </message>
     <message>
         <source>Restrict Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertikal einschränken</translation>
     </message>
     <message>
         <source>Restrict Orthogonal</source>
-        <translation type="unfinished"></translation>
+        <translation>Orthogonal einschränken</translation>
     </message>
     <message>
         <source>Restrict Nothing</source>
-        <translation type="unfinished">Keine Einschränkung</translation>
+        <translation>Keine Einschränkung</translation>
     </message>
     <message>
         <source>Set relative zero position</source>
-        <translation type="unfinished"></translation>
+        <translation>Relativen Nullpunkt setzen</translation>
     </message>
     <message>
         <source>Lock relative zero position</source>
-        <translation type="unfinished"></translation>
+        <translation>Relativen Nullpunkt fixieren</translation>
     </message>
 </context>
 <context>
@@ -8234,47 +8270,47 @@ Wollen Sie die Datei überschreiben?</translation>
     </message>
     <message>
         <source>Opened dwg file version %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>DWG Datei Version %1 geöffnet.</translation>
     </message>
     <message>
         <source>unknown error opening dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>Unbekannter Fehler beim Öffnen der DWG Datei</translation>
     </message>
     <message>
         <source>can&apos;t open this dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>Öffnen der DWG Datei nicht möglich</translation>
     </message>
     <message>
         <source>unsupported dwg version</source>
-        <translation type="unfinished"></translation>
+        <translation>Nicht unterstützte DWG Version</translation>
     </message>
     <message>
         <source>error reading file header in dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim Lesen der DWG Kopfdaten</translation>
     </message>
     <message>
         <source>error reading header vars in dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim Lesen der DWG Variablen</translation>
     </message>
     <message>
         <source>error reading classes in dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim Lesen der DWG Klassen</translation>
     </message>
     <message>
         <source>error reading offsets in dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim Lesen der DWG Offsets</translation>
     </message>
     <message>
         <source>error reading tables in dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim Lesen der DWG Tabellen</translation>
     </message>
     <message>
         <source>error reading entities in dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim Lesen der DWG Objekte</translation>
     </message>
     <message>
         <source>dwg Drawing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>DWG Zeichnung %1</translation>
     </message>
 </context>
 <context>
@@ -9259,15 +9295,15 @@ Wollen Sie die Datei überschreiben?</translation>
     </message>
     <message>
         <source>Specify the first line/arc/circle</source>
-        <translation type="unfinished">Erste Linie/Bogen/Kreis auswählen</translation>
+        <translation>Erste Linie/Bogen/Kreis auswählen</translation>
     </message>
     <message>
         <source>Specify the second line/arc/circle</source>
-        <translation type="unfinished">Zweite Linie/Bogen/Kreis auswählen</translation>
+        <translation>Zweite Linie/Bogen/Kreis auswählen</translation>
     </message>
     <message>
         <source>Specify the third line/arc/circle</source>
-        <translation type="unfinished"></translation>
+        <translation>Dritte Linie/Bogen/Kreis auswählen</translation>
     </message>
 </context>
 <context>
@@ -10601,6 +10637,10 @@ Wollen Sie die Datei überschreiben?</translation>
         <source>Angle: %1</source>
         <translation>Winkel: %1</translation>
     </message>
+    <message>
+        <source> or %1%2</source>
+        <translation> oder %1%2</translation>
+    </message>
 </context>
 <context>
     <name>RS_ActionInfoArea</name>
@@ -11890,11 +11930,11 @@ Wollen Sie die Datei überschreiben?</translation>
     </message>
     <message>
         <source>Deleting point is invalid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Der zu löschende Punkt ist ungültig.</translation>
     </message>
     <message>
         <source>Deleting point is not on entity.</source>
-        <translation type="unfinished">Der zu löschende Punkt gehört zu keinem Objekt.</translation>
+        <translation>Der zu löschende Punkt gehört zu keinem Objekt.</translation>
     </message>
 </context>
 <context>
@@ -11989,7 +12029,7 @@ Wollen Sie die Datei überschreiben?</translation>
     </message>
     <message>
         <source>Deleting point is invalid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Der zu löschende Punkt ist ungültig.</translation>
     </message>
 </context>
 <context>

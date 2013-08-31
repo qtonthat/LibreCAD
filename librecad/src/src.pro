@@ -12,13 +12,14 @@ DEFINES += HAS_BOOST=1
 
 DEFINES -= DWGSUPPORT
 
-SCMREVISION="2.0.0rc1"
+SCMREVISION="2.0.0rc2"
 
 # Store intermedia stuff somewhere else
 GENERATED_DIR = ../../generated/librecad
 # Use common project definitions.
-include(../../settings.pro)
-include(../../common.pro)
+include(../../common.pri)
+include(./muparser.pri)
+include(./boost.pri)
 
 #uncomment to use 2D rs_vector instead of 3D
 #DEFINES += RS_VECTOR2D=1
@@ -72,9 +73,7 @@ win32 {
 # Additional libraries to load
 LIBS += -L../../generated/lib  \
     -ldxfrw \
-    -ljwwlib \
-    -lmuparser
-
+    -ljwwlib
 
 DEPENDPATH += \
     ../../libraries/libdxfrw/src \
@@ -869,28 +868,28 @@ contains(DEFINES, EMU_C99) {
 
 contains(QT_MAJOR_VERSION, 4)   {
 
-contains(QT_MINOR_VERSION, 0)|contains(QT_MINOR_VERSION, 1)|contains(QT_MINOR_VERSION, 2) {
-    error("Qt version $$[QT_VERSION] is too old, should be version 4.3 or newer.")
-}
+    contains(QT_MINOR_VERSION, 0)|contains(QT_MINOR_VERSION, 1)|contains(QT_MINOR_VERSION, 2) {
+        error("Qt version $$[QT_VERSION] is too old, should be version 4.3 or newer.")
+    }
 
-contains(QT_MINOR_VERSION, 3) {
-    !build_pass:verbose:message(Emulating Qt version 4.4 and 4.5.)
-    SOURCES += main/emu_qt44.cpp main/emu_qt45.cpp
-    HEADERS += main/emu_qt44.h   main/emu_qt45.h
+    contains(QT_MINOR_VERSION, 3) {
+        !build_pass:verbose:message(Emulating Qt version 4.4 and 4.5.)
+        SOURCES += main/emu_qt44.cpp main/emu_qt45.cpp
+        HEADERS += main/emu_qt44.h   main/emu_qt45.h
 
-    !build_pass:verbose:message(Using QAssistantClient.)
-    CONFIG += assistant
-}
+        !build_pass:verbose:message(Using QAssistantClient.)
+        CONFIG += assistant
+    }
 
-contains(QT_MINOR_VERSION, 4) {
-    !build_pass:verbose:message(Emulating Qt version 4.5.)
-    SOURCES += main/emu_qt45.cpp
-    HEADERS += main/emu_qt45.h
-}
+    contains(QT_MINOR_VERSION, 4) {
+        !build_pass:verbose:message(Emulating Qt version 4.5.)
+        SOURCES += main/emu_qt45.cpp
+        HEADERS += main/emu_qt45.h
+    }
 
-contains(QT_MINOR_VERSION, 5)|contains(QT_MINOR_VERSION, 6)|contains(QT_MINOR_VERSION, 7) {
-    !build_pass:verbose:message(Using Qt version $$[QT_VERSION].)
-}
+    contains(QT_MINOR_VERSION, 5)|contains(QT_MINOR_VERSION, 6)|contains(QT_MINOR_VERSION, 7) {
+        !build_pass:verbose:message(Using Qt version $$[QT_VERSION].)
+    }
 
 # QT_MAJOR_VERSION = 4 
 }
@@ -939,6 +938,7 @@ TRANSLATIONS = ../ts/librecad_ca.ts \
     ../ts/librecad_pl.ts \
     ../ts/librecad_pt_br.ts \
     ../ts/librecad_pt_pt.ts \
+    ../ts/librecad_ro_ro.ts \
     ../ts/librecad_ru.ts \
     ../ts/librecad_sk.ts \
     ../ts/librecad_sq_al.ts \

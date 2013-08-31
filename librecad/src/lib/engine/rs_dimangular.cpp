@@ -106,7 +106,7 @@ double RS_DimAngular::getAngle() {
 /**
  * @return Center of the measured dimension.
  */
-RS_Vector RS_DimAngular::getCenter() {
+RS_Vector RS_DimAngular::getCenter() const {
     RS_ConstructionLine l1(NULL, RS_ConstructionLineData(edata.definitionPoint1,
                            edata.definitionPoint2));
     RS_ConstructionLine l2(NULL, RS_ConstructionLineData(edata.definitionPoint3,
@@ -232,7 +232,7 @@ return true;
  *
  * @param autoText Automatically reposition the text label
  */
-void RS_DimAngular::update(bool /*autoText*/) {
+void RS_DimAngular::updateDim(bool /*autoText*/) {
 
     RS_DEBUG->print("RS_DimAngular::update");
 

@@ -76,10 +76,10 @@ public:
     void clearLayers() {
                 layerList.clear();
         }
-    uint countLayers() const {
+    unsigned countLayers() const {
         return layerList.count();
     }
-    RS_Layer* layerAt(uint i) {
+    RS_Layer* layerAt(unsigned i) {
         return layerList.at(i);
     }
     void activateLayer(const QString& name) {
@@ -111,6 +111,9 @@ public:
     void toggleLayerLock(RS_Layer* layer) {
                 layerList.toggleLock(layer);
         }
+    void toggleLayerPrint(RS_Layer* layer) {
+                layerList.togglePrint(layer);
+        }
     void freezeAllLayers(bool freeze) {
                 layerList.freezeAll(freeze);
         }
@@ -127,10 +130,10 @@ public:
     void clearBlocks() {
                 blockList.clear();
         }
-    uint countBlocks() {
+    unsigned countBlocks() {
         return blockList.count();
     }
-    RS_Block* blockAt(uint i) {
+    RS_Block* blockAt(unsigned i) {
         return blockList.at(i);
     }
     void activateBlock(const QString& name) {

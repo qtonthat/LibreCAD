@@ -627,7 +627,7 @@ void QC_ApplicationWindow::initActions(void)
     menu = menuBar()->addMenu(tr("&File"));
     menu->setObjectName("File");
     tb = fileToolBar;
-    tb->setWindowTitle("File");
+    tb->setWindowTitle(tr("File"));
 
     action = actionFactory.createAction(RS2::ActionFileNew, this);
     menu->addAction(action);
@@ -689,7 +689,7 @@ void QC_ApplicationWindow::initActions(void)
     menu = menuBar()->addMenu(tr("&Edit"));
     menu->setObjectName("Edit");
     tb = editToolBar;
-    tb->setWindowTitle("Edit");
+    tb->setWindowTitle(tr("Edit"));
 
     action = actionFactory.createAction(RS2::ActionEditKillAllActions, actionHandler);
     tb->addAction(action);
@@ -760,7 +760,7 @@ void QC_ApplicationWindow::initActions(void)
     menu = menuBar()->addMenu(tr("&View"));
     menu->setObjectName("View");
     tb = zoomToolBar;
-    tb->setWindowTitle("View");
+    tb->setWindowTitle(tr("View"));
 
     action = actionFactory.createAction(RS2::ActionViewGrid, this);
     menu->addAction(action);
@@ -1603,7 +1603,7 @@ void QC_ApplicationWindow::initToolBar() {
         zoomToolBar->setSizePolicy(toolBarPolicy);
         zoomToolBar->setObjectName ( "ZoomTB" );
 
-        penToolBar = new QG_PenToolBar("Pen Selection", this);
+        penToolBar = new QG_PenToolBar(tr("Pen Selection"), this);
         penToolBar->setSizePolicy(toolBarPolicy);
         penToolBar->setObjectName ( "PenTB" );
 
@@ -1611,7 +1611,7 @@ void QC_ApplicationWindow::initToolBar() {
             this, SLOT(slotPenChanged(RS_Pen)));
 
     //Add snap toolbar
-    snapToolBar = new QG_SnapToolBar("Snap Selection",actionHandler, this);
+    snapToolBar = new QG_SnapToolBar(tr("Snap Selection"),actionHandler, this);
     snapToolBar->setSizePolicy(toolBarPolicy);
     snapToolBar->setObjectName ( "SnapTB" );
 
@@ -1621,7 +1621,7 @@ void QC_ApplicationWindow::initToolBar() {
     this->addToolBar(snapToolBar);
 
 
-    optionWidget = new QToolBar("Tool Options", this);
+    optionWidget = new QToolBar(tr("Tool Options"), this);
         QSizePolicy optionWidgetBarPolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
 //        optionWidget->setMinimumSize(440,30);
         optionWidget->setSizePolicy(optionWidgetBarPolicy);
@@ -1632,7 +1632,7 @@ void QC_ApplicationWindow::initToolBar() {
     //addDockWindow(optionWidget, DockTop, true);
 
     // CAD toolbar left:
-    QToolBar* t = new QToolBar("CAD Tools", this);
+    QToolBar* t = new QToolBar(tr("CAD Tools"), this);
 
     t->setMinimumSize(66,400);
         QSizePolicy policy(QSizePolicy::Fixed, QSizePolicy::MinimumExpanding);
@@ -3067,7 +3067,7 @@ void QC_ApplicationWindow::slotFileExport() {
         filters.sort();
 
         // set dialog options: filters, mode, accept, directory, filename
-        QFileDialog fileDlg(this, "Export as");
+        QFileDialog fileDlg(this, tr("Export as"));
 #if QT_VERSION < 0x040400
         emu_qt44_QFileDialog_setNameFilters(fileDlg, filters);
 #else
@@ -3823,12 +3823,25 @@ void QC_ApplicationWindow::slotHelpAbout() {
 
     QMessageBox box(this);
     box.setWindowTitle(tr("About..."));
+    /**
+     * Compiler macro list in Qt source tree
+     * Src/qtbase/src/corelib/global/qcompilerdetection.h
+     */
+
     box.setText(       QString("<p><font size=\"2\">") +
                        "<h2>"+ XSTR(QC_APPNAME)+ "</h2>" +
                        tr("Version: %1").arg(XSTR(QC_VERSION)) + "<br>" +
 #ifdef QC_SCMREVISION
                        tr("SCM Revision: %1").arg(XSTR(QC_SCMREVISION)) + "<br>" +
 #endif
+#if defined(Q_CC_CLANG)
+                       tr("Compiler: Clang %1.%2.%3").arg(__clang_major__).arg(__clang_minor__).arg(__clang_patchlevel__) + "<br>" +
+#elif defined(Q_CC_GNU)
+                       tr("Compiler: GNU GCC %1.%2.%3").arg(__GNUC__).arg(__GNUC_MINOR__).arg(__GNUC_PATCHLEVEL__) + "<br>" +
+#elif defined(Q_CC_MSVC)
+                       tr("Compiler: Microsoft Visual C++<br>") +
+#endif
+                       tr("Qt Version: %1").arg(qVersion()) + "<br>" +
                        tr("Compiled on: %1").arg(__DATE__) + "<br>" +
                        "Portions (c) 2011 by R. van Twisk" + "<br>" +
                        tr("Program Icons Supplied by") +"<br>&nbsp;&nbsp;&nbsp;Pablo: LibreCAD Argentine<br/>" +

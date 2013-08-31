@@ -116,11 +116,11 @@ public:
 
     virtual QString getMeasuredLabel();
     double getAngle();
-    RS_Vector getCenter();
+    RS_Vector getCenter() const;
         bool getAngles(double& ang1, double& ang2, bool& reversed,
                 RS_Vector& p1, RS_Vector& p2);
 
-    virtual void update(bool autoText=false);
+    virtual void updateDim(bool autoText=false);
 
     RS_Vector getDefinitionPoint1() {
         return edata.definitionPoint1;

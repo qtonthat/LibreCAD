@@ -205,6 +205,26 @@
         <translation>调试(&amp;b)</translation>
     </message>
     <message>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1606"/>
+        <source>Pen Selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1614"/>
+        <source>Snap Selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1624"/>
+        <source>Tool Options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1635"/>
+        <source>CAD Tools</source>
+        <translation type="unfinished">CAD 工具</translation>
+    </message>
+    <message>
         <location filename="../src/main/qc_applicationwindow.cpp" line="1796"/>
         <source>Layer List</source>
         <translation>图层列表</translation>
@@ -350,7 +370,27 @@ Please check the permissions.</source>
 请检查权限.</translation>
     </message>
     <message>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="3838"/>
+        <source>Compiler: Clang %1.%2.%3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="3840"/>
+        <source>Compiler: GNU GCC %1.%2.%3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="3842"/>
+        <source>Compiler: Microsoft Visual C++&lt;br&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../src/main/qc_applicationwindow.cpp" line="3844"/>
+        <source>Qt Version: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="3857"/>
         <source>Please consider donating to LibreCAD to help maintain the source code and website.</source>
         <translation>请资助LibreCAD项目以维护代码及网站</translation>
     </message>
@@ -360,9 +400,24 @@ Please check the permissions.</source>
         <translation>使用新文件名保存图纸...</translation>
     </message>
     <message>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="630"/>
+        <source>File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="692"/>
+        <source>Edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../src/main/qc_applicationwindow.cpp" line="728"/>
         <source>Draw &amp;Order</source>
         <translation>绘图&amp;图层顺序</translation>
+    </message>
+    <message>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="763"/>
+        <source>View</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/main/qc_applicationwindow.cpp" line="3001"/>
@@ -394,6 +449,11 @@ Auto-save disabled.</source>
         <location filename="../src/main/qc_applicationwindow.cpp" line="3032"/>
         <source>Exporting drawing...</source>
         <translation>导出图纸...</translation>
+    </message>
+    <message>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="3070"/>
+        <source>Export as</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/main/qc_applicationwindow.cpp" line="3134"/>
@@ -446,12 +506,12 @@ Auto-save disabled.</source>
         <translation>关于...</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="3828"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="3833"/>
         <source>Version: %1</source>
         <translation>版本: %1</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="3830"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="3835"/>
         <source>SCM Revision: %1</source>
         <translation>SCM 版本: %1</translation>
     </message>
@@ -464,17 +524,17 @@ Auto-save disabled.</source>
         <translation type="obsolete">SVN修订: %1</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="3832"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="3845"/>
         <source>Compiled on: %1</source>
         <translation>编译时间: %1</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="3834"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="3847"/>
         <source>Program Icons Supplied by</source>
         <translation>程序图标提供者</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="3835"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="3848"/>
         <source>Splash and Logo supplied by</source>
         <translation>启动界面及标识提供者</translation>
     </message>
@@ -483,12 +543,12 @@ Auto-save disabled.</source>
         <translation type="obsolete">日期: %1</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="3837"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="3850"/>
         <source>Modules: %1</source>
         <translation>模块: %1</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="3839"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="3852"/>
         <source>Main Website : </source>
         <translation>主页: </translation>
     </message>
@@ -497,12 +557,12 @@ Auto-save disabled.</source>
         <translation type="obsolete">请捐助LibreCAD项目以帮助维护源码和网站.</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="3909"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="3922"/>
         <source>Help</source>
         <translation>帮助</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="3917"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="3930"/>
         <source>Bugger, I couldn&apos;t find the helpfiles on the filesystem.</source>
         <translation>错误,无法自文件系统找到帮助文件.</translation>
     </message>
@@ -5747,6 +5807,11 @@ You can changes these settings later in the Options Dialog of QCad.</source>
         <translation>打开%1</translation>
     </message>
     <message>
+        <location filename="../src/ui/qg_filedialog.cpp" line="228"/>
+        <source>Untitled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../src/ui/qg_filedialog.cpp" line="239"/>
         <source>Save %1 As</source>
         <translation>保存%1为</translation>
@@ -9785,6 +9850,11 @@ Do you want to replace it?</source>
         <location filename="../src/actions/rs_actioninfoangle.cpp" line="50"/>
         <source>An&amp;gle between two lines</source>
         <translation>两线夹角 (&amp;g)</translation>
+    </message>
+    <message>
+        <location filename="../src/actions/rs_actioninfoangle.cpp" line="86"/>
+        <source> or %1%2</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/actions/rs_actioninfoangle.cpp" line="88"/>

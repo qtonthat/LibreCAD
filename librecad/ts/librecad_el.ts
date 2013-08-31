@@ -216,11 +216,11 @@
     </message>
     <message>
         <source>File</source>
-        <translation type="obsolete">Αρχείο</translation>
+        <translation type="unfinished">Αρχείο</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="obsolete">Επεξεργασία</translation>
+        <translation type="unfinished">Επεξεργασία</translation>
     </message>
     <message>
         <source>Vie&amp;ws</source>
@@ -232,7 +232,7 @@
     </message>
     <message>
         <source>View</source>
-        <translation type="obsolete">Εμφάνιση</translation>
+        <translation type="unfinished">Εμφάνιση</translation>
     </message>
     <message>
         <source>Pen</source>
@@ -240,7 +240,7 @@
     </message>
     <message>
         <source>Tool Options</source>
-        <translation type="obsolete">Επιλογές εργαλείου</translation>
+        <translation type="unfinished">Επιλογές εργαλείου</translation>
     </message>
     <message>
         <source>Layer List</source>
@@ -514,6 +514,38 @@ Auto-save disabled.</source>
     </message>
     <message>
         <source>Auto-saving failed</source>
+        <translation>Η αυτόματη αποθήκευση απέτυχε</translation>
+    </message>
+    <message>
+        <source>Pen Selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Snap Selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CAD Tools</source>
+        <translation type="unfinished">Εργαλεία CAD</translation>
+    </message>
+    <message>
+        <source>Export as</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compiler: Clang %1.%2.%3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compiler: GNU GCC %1.%2.%3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compiler: Microsoft Visual C++&lt;br&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Qt Version: %1</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2354,7 +2386,11 @@ p, li { white-space: pre-wrap; }
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;Draw a tangential Circle of three lines/arcs/circles&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;Σχεδίαση κύκλου εφαπτόμενου σε τρεις γραμμές/τόξα/κύκλους&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -3900,7 +3936,7 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     </message>
     <message utf8="true">
         <source>Pi (π)</source>
-        <translation>π (π)</translation>
+        <translation>Π (π)</translation>
     </message>
     <message utf8="true">
         <source>Pound (£)</source>
@@ -4846,27 +4882,27 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     </message>
     <message>
         <source>General Scale:</source>
-        <translation type="unfinished"></translation>
+        <translation>Γενική κλίμακα:</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Scale to multiply all dimension values.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Κλίμακα προς πολλαπλασιασμό με όλες τις τιμές των διαστάσεων.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>0.5</source>
-        <translation type="unfinished">0.5</translation>
+        <translation>0.5</translation>
     </message>
     <message>
         <source>1.0</source>
-        <translation type="unfinished">1.0</translation>
+        <translation>1.0</translation>
     </message>
     <message>
         <source>2.0</source>
-        <translation type="unfinished">2.0</translation>
+        <translation>2.0</translation>
     </message>
     <message>
         <source>5.0</source>
-        <translation type="unfinished">5.0</translation>
+        <translation>5.0</translation>
     </message>
 </context>
 <context>
@@ -6221,11 +6257,11 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     </message>
     <message>
         <source>LFF Font %1</source>
-        <translation>LFF Font %1</translation>
+        <translation>Γραμματοσειρά LFF %1</translation>
     </message>
     <message>
         <source>QCad Font %1</source>
-        <translation>QCad Font %1</translation>
+        <translation>Γραμματοσειρά QCad %1</translation>
     </message>
     <message>
         <source>Jww Drawing %1</source>
@@ -6237,7 +6273,7 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     </message>
     <message>
         <source>QCad 1.x file %1</source>
-        <translation>QCad 1.x file %1</translation>
+        <translation>Αρχείο QCad 1.x %1</translation>
     </message>
     <message>
         <source>Open Drawing</source>
@@ -6262,7 +6298,7 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     <message>
         <source>Block</source>
         <comment>block file</comment>
-        <translation>Block</translation>
+        <translation>Μπλοκ</translation>
     </message>
     <message>
         <source>Drawing</source>
@@ -6279,6 +6315,10 @@ You can changes these settings later in the Options Dialog of QCad.</source>
     </message>
     <message>
         <source>dwg Drawing %1</source>
+        <translation>Σχέδιο dwg %1</translation>
+    </message>
+    <message>
+        <source>Untitled</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7255,59 +7295,59 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Free Snap</source>
-        <translation type="unfinished"></translation>
+        <translation>Χωρίς έλξη</translation>
     </message>
     <message>
         <source>Snap on grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Έλξη στον κάνναβο</translation>
     </message>
     <message>
         <source>Snap on Endpoints</source>
-        <translation type="unfinished"></translation>
+        <translation>Έλξη σε άκρα</translation>
     </message>
     <message>
         <source>Snap on Entity</source>
-        <translation type="unfinished"></translation>
+        <translation>Έλξη σε οντότητες</translation>
     </message>
     <message>
         <source>Snap Center</source>
-        <translation type="unfinished"></translation>
+        <translation>Έλξη σε κέντρα</translation>
     </message>
     <message>
         <source>Snap Middle</source>
-        <translation type="unfinished"></translation>
+        <translation>Έλξη στη μέση</translation>
     </message>
     <message>
         <source>Snap Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>Έλξη με απόσταση</translation>
     </message>
     <message>
         <source>Snap Intersection</source>
-        <translation type="unfinished"></translation>
+        <translation>Έλξη σε διασταύρωση</translation>
     </message>
     <message>
         <source>Restrict Horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>Περιορισμός Οριζόντια</translation>
     </message>
     <message>
         <source>Restrict Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>Περιορισμός κατακόρυφα</translation>
     </message>
     <message>
         <source>Restrict Orthogonal</source>
-        <translation type="unfinished"></translation>
+        <translation>Περιορισμός Ορθογώνια</translation>
     </message>
     <message>
         <source>Restrict Nothing</source>
-        <translation type="unfinished">Χωρίς περιορισμό</translation>
+        <translation>Χωρίς περιορισμό</translation>
     </message>
     <message>
         <source>Set relative zero position</source>
-        <translation type="unfinished"></translation>
+        <translation>Καθορισμός θέσης του σχετικού σημείου μηδέν</translation>
     </message>
     <message>
         <source>Lock relative zero position</source>
-        <translation type="unfinished"></translation>
+        <translation>Ασφάλιση θέσης σχετικού σημείου Μηδέν</translation>
     </message>
 </context>
 <context>
@@ -7638,11 +7678,11 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>QCad 1.x file %1</source>
-        <translation>QCad 1.x file %1</translation>
+        <translation>Αρχείο QCad 1.x %1</translation>
     </message>
     <message>
         <source>Font %1</source>
-        <translation>Font %1</translation>
+        <translation>Γραμματοσειρά %1</translation>
     </message>
     <message>
         <source>All Files (*.*)</source>
@@ -7770,7 +7810,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>LFF Font %1</source>
-        <translation>LFF Font %1</translation>
+        <translation>Γραμματοσειρά LFF %1</translation>
     </message>
     <message>
         <source>Jww %1</source>
@@ -7786,11 +7826,11 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Scalable Vector Graphics</source>
-        <translation>Scalable Vector Graphics</translation>
+        <translation>Κλιμακούμενα Διανυσματικά Γραφικά</translation>
     </message>
     <message>
         <source>SGI Black &amp; White</source>
-        <translation>SGI Black &amp; White</translation>
+        <translation>SGI Μαύρο &amp; Άσπρο</translation>
     </message>
     <message>
         <source>Encapsulated PostScript</source>
@@ -7838,47 +7878,47 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Opened dwg file version %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Έκδοση του ανοιγμένου αρχείου dwg %1.</translation>
     </message>
     <message>
         <source>unknown error opening dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>άγνωστο σφάλμα κατά το άνοιγμα του αρχείου dwg</translation>
     </message>
     <message>
         <source>can&apos;t open this dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>δεν είναι δυνατό το άνοιγμα του αρχείου dwg</translation>
     </message>
     <message>
         <source>unsupported dwg version</source>
-        <translation type="unfinished"></translation>
+        <translation>μη υποστηριζόμενη έκδοση dwg</translation>
     </message>
     <message>
         <source>error reading file header in dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>σφάλμα κατά το διάβασμα της επικεφαλίδας αρχείου στο αρχείο dwg</translation>
     </message>
     <message>
         <source>error reading header vars in dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>σφάλμα κατά το διάβασμα των μεταβλητών επικεφαλίδας στο αρχείο dwg</translation>
     </message>
     <message>
         <source>error reading classes in dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>σφάλμα κατά το διάβασμα των κλάσεων στο αρχείο dwg</translation>
     </message>
     <message>
         <source>error reading offsets in dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>σφάλμα κατά το διάβασμα των διακένων στο αρχείο dwg</translation>
     </message>
     <message>
         <source>error reading tables in dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>σφάλμα κατά το διάβασμα των πινάκων στο αρχείο dwg</translation>
     </message>
     <message>
         <source>error reading entities in dwg file</source>
-        <translation type="unfinished"></translation>
+        <translation>σφάλμα κατά το διάβασμα των οντοτήτων στο αρχείο dwg</translation>
     </message>
     <message>
         <source>dwg Drawing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Σχέδιο dwg %1</translation>
     </message>
 </context>
 <context>
@@ -8777,15 +8817,15 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Specify the first line/arc/circle</source>
-        <translation type="unfinished">Καθορίστε την πρώτη γραμμή/τόξο/κύκλο</translation>
+        <translation>Καθορίστε την πρώτη γραμμή/τόξο/κύκλο</translation>
     </message>
     <message>
         <source>Specify the second line/arc/circle</source>
-        <translation type="unfinished">Καθορίστε τη δεύτερη γραμμή/τόξο/κύκλο</translation>
+        <translation>Καθορίστε τη δεύτερη γραμμή/τόξο/κύκλο</translation>
     </message>
     <message>
         <source>Specify the third line/arc/circle</source>
-        <translation type="unfinished"></translation>
+        <translation>Καθορίστε την τρίτη γραμμή/τόξο/κύκλο</translation>
     </message>
 </context>
 <context>
@@ -10069,6 +10109,10 @@ Do you want to replace it?</source>
         <source>Angle: %1</source>
         <translation>Γωνία: %1</translation>
     </message>
+    <message>
+        <source> or %1%2</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RS_ActionInfoArea</name>
@@ -11229,11 +11273,11 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Deleting point is invalid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Το σημείο προς διαγραφή δεν είναι έγκυρο.</translation>
     </message>
     <message>
         <source>Deleting point is not on entity.</source>
-        <translation type="unfinished">Το σημείο προς διαγραφή δεν βρίσκεται πάνω στην οντότητα.</translation>
+        <translation>Το σημείο προς διαγραφή δεν βρίσκεται πάνω στην οντότητα.</translation>
     </message>
 </context>
 <context>
@@ -11288,7 +11332,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Deleting point is invalid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Το σημείο προς διαγραφή δεν είναι έγκυρο.</translation>
     </message>
 </context>
 <context>
